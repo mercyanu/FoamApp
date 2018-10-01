@@ -3,7 +3,7 @@
     android:id="@+id/toast_viewGroup"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/colorAccent"
+    android:background="#e80404"
     android:padding="5dp"
     android:layout_margin="15dp">
 
@@ -11,13 +11,12 @@
         android:id="@+id/toast_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#fffb00"
+        android:textColor="#000a35"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:textSize="13sp"
         android:padding="5dp"
         android:text=" Incorrect Details, Please try again"
         android:fontFamily="monospace"
-        android:drawableStart="@drawable/error_image"
         />
 </RelativeLayout>
