@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uname"
+            android:textColor="@color/plainWhite"
+            android:textAppearance="?android:attr/textAppearance"
+            />
+        <EditText
+            android:id="@+id/useremail"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/plainWhite"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pword"
+            android:textColor="@color/plainWhite"
+            android:layout_marginTop="17dp"
+            />
+        <EditText
+            android:id="@+id/pword"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/plainWhite"
+            />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="Login"
+            android:textColor="@color/plainWhite"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="60dp"
+            android:background="@color/colorAccent" />
+
+    </LinearLayout>
+</RelativeLayout>
