@@ -1,4 +1,4 @@
-package com.amolexis.foamo.logic.login;
+package com.amolexis.foamo.ui.controller;
 
 
 import android.content.Context;

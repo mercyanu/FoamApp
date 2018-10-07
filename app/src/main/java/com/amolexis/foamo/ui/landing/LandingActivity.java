@@ -1,9 +1,8 @@
-package com.amolexis.foamo.ui.landing;
+package com.amolexis.foamo.ui.controller;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 
 import com.amolexis.foamo.R;
 import com.amolexis.foamo.utils.CustomToast;
