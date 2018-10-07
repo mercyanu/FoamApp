@@ -43,7 +43,7 @@ tools:context=".ui.landing.LandingActivity"
 
     <fragment
         android:id="@+id/login_frag"
-        android:name="com.amolexis.foamo.logic.login.LoginFrag"
+        android:name="com.amolexis.foamo.ui.landing.LoginFrag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"

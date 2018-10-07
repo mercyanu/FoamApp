@@ -1,4 +1,4 @@
-package com.amolexis.foamo.ui.controller;
+package com.amolexis.foamo.ui.landing;
 
 
 import android.content.Context;
@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.amolexis.foamo.R;
@@ -22,6 +21,9 @@ import com.amolexis.foamo.utils.Validator;
  */
 public class LoginFrag extends Fragment {
 
+    //shared preferences may be used
+    public static final String USERNAME = "";
+    public static final String PASSWORD = "";
 
     public LoginFrag() {
         // Required empty public constructor

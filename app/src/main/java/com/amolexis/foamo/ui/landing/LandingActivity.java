@@ -1,4 +1,4 @@
-package com.amolexis.foamo.ui.controller;
+package com.amolexis.foamo.ui.landing;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
